@@ -56,27 +56,34 @@ function lockElements(start, end) {
 function connectElements(start, end) {
   if (start === end) return; // No permitir enlazar consigo mismo
 
-  const isCorrect =
-    (start.id === end.alt || start.alt === end.id) &&
-    !connections.some((conn) => conn.start === start && conn.end === end);
+  // Permitir solo conexiones entre un texto (SPAN) y una imagen (IMG)
+  if (
+    (start.tagName === "SPAN" && end.tagName === "IMG") ||
+    (start.tagName === "IMG" && end.tagName === "SPAN")
+  ) {
+    const isCorrect =
+      (start.id === end.alt || start.alt === end.id) &&
+      !connections.some((conn) => conn.start === start && conn.end === end);
 
-  // Eliminar conexiones previas de los mismos elementos
-  connections = connections.filter(
-    (conn) => conn.start !== start && conn.end !== end
-  );
+    // Eliminar conexiones previas de los mismos elementos
+    connections = connections.filter(
+      (conn) => conn.start !== start && conn.end !== end
+    );
 
-  // Agregar nueva conexión
-  connections.push({
-    start,
-    end,
-    color: isCorrect ? "green" : "red",
-  });
+    // Agregar nueva conexión
+    connections.push({
+      start,
+      end,
+      color: isCorrect ? "green" : "red",
+    });
 
-  // Bloquear elementos si la conexión es correcta
-  if (isCorrect) lockElements(start, end);
+    // Bloquear elementos si la conexión es correcta
+    if (isCorrect) lockElements(start, end);
 
-  drawConnections();
+    drawConnections();
+  }
 }
+
 
 // Eventos de drag and drop
 document.addEventListener("dragstart", (e) => {
