@@ -52,6 +52,13 @@ function lockElements(start, end) {
   end.style.pointerEvents = "none";
 }
 
+// Función para eliminar cualquier conexión existente de un elemento
+function removeExistingConnection(element) {
+  connections = connections.filter(
+    (conn) => conn.start !== element && conn.end !== element
+  );
+}
+
 // Función para conectar dos elementos
 function connectElements(start, end) {
   if (start === end) return; // No permitir enlazar consigo mismo
@@ -61,14 +68,14 @@ function connectElements(start, end) {
     (start.tagName === "SPAN" && end.tagName === "IMG") ||
     (start.tagName === "IMG" && end.tagName === "SPAN")
   ) {
+    // Eliminar cualquier conexión previa del mismo SPAN o IMG antes de crear una nueva
+    removeExistingConnection(start);
+    removeExistingConnection(end);
+
+    // Verificar si la conexión es correcta
     const isCorrect =
       (start.id === end.alt || start.alt === end.id) &&
       !connections.some((conn) => conn.start === start && conn.end === end);
-
-    // Eliminar conexiones previas de los mismos elementos
-    connections = connections.filter(
-      (conn) => conn.start !== start && conn.end !== end
-    );
 
     // Agregar nueva conexión
     connections.push({
@@ -83,6 +90,8 @@ function connectElements(start, end) {
     drawConnections();
   }
 }
+
+
 
 
 // Eventos de drag and drop
