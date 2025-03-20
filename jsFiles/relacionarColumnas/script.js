@@ -3,6 +3,24 @@ let connections = []; // Guardará las conexiones existentes
 let draggingElement = null;
 let selectedElement = null;
 
+document.addEventListener("DOMContentLoaded", function () {
+  const leftColumn = document.getElementById("left-column");
+  const elements = Array.from(leftColumn.children);
+
+  // Función para mezclar elementos usando el algoritmo de Fisher-Yates
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
+
+  shuffleArray(elements); // Mezcla los elementos
+
+  // Vaciar la columna y agregar los elementos en el nuevo orden
+  elements.forEach((element) => leftColumn.appendChild(element));
+});
+
 const canvas = document.getElementById("gameCanvas");
 const container = canvas.parentElement; // El div que contiene el canvas
 function adjustCanvasSize() {
@@ -189,3 +207,71 @@ document.addEventListener("dragstart", (e) => {
 
 // Si hay cambios en el tamaño del contenedor, vuelve a ajustar el canvas
 window.addEventListener("resize", adjustCanvasSize);
+
+// -------------------------------------------------------------------
+document.addEventListener("DOMContentLoaded", () => {
+  function shuffleArray(array) {
+    return array.sort(() => Math.random() - 0.5);
+  }
+
+  function hideAll(elements) {
+    elements.forEach(el => {
+      el.style.display = "none";
+    });
+  }
+
+  function showElements(elements) {
+    elements.forEach(el => {
+      el.style.display = "block";
+    });
+  }
+
+  function selectRandomPairs() {
+    const allTexts = Array.from(document.querySelectorAll("#left-column .relacionarTexto"));
+    const allImages = Array.from(document.querySelectorAll("#right-column .character"));
+
+    console.log("Total de enunciados encontrados:", allTexts.length);
+    console.log("Total de imágenes encontradas:", allImages.length);
+
+    if (allTexts.length === 0 || allImages.length === 0) {
+      console.warn("No se encontraron enunciados o imágenes en el DOM.");
+      return;
+    }
+
+    // Filtrar solo los pares correctos usando el atributo `alt` en imágenes
+    let validPairs = allTexts
+      .map(text => {
+        const matchingImage = allImages.find(img => img.alt.trim() === text.id.trim()); // Coincidencia por alt e id
+        if (matchingImage) {
+          console.log(`Par válido: "${text.textContent.trim()}" -> "${matchingImage.alt}"`);
+        }
+        return matchingImage ? { text, image: matchingImage } : null;
+      })
+      .filter(pair => pair !== null);
+
+    console.log("Total de pares válidos:", validPairs.length);
+
+    if (validPairs.length < 4) {
+      console.warn("No hay suficientes pares válidos para mostrar.");
+      return;
+    }
+
+    // Barajar y seleccionar solo 3 pares
+    validPairs = shuffleArray(validPairs).slice(0, 4);
+
+    // Obtener los elementos seleccionados
+    const selectedTexts = validPairs.map(pair => pair.text);
+    const selectedImages = validPairs.map(pair => pair.image);
+
+    // Ocultar todos los elementos y luego mostrar solo los seleccionados
+    hideAll(allTexts);
+    hideAll(allImages);
+    showElements(selectedTexts);
+    showElements(selectedImages);
+  }
+
+  selectRandomPairs(); // Ejecutar al cargar la página
+});
+
+
+

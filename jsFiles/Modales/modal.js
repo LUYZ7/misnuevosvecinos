@@ -65,7 +65,8 @@ window.onload = function () {
     modalSoyElenaVivoEnLaCasaVerde:`https://www.youtube.com/embed/HHVZHvwSm58?si=gbxDInOboX6royf0`,
     modalSoyDianaVivoEnLaCasaRosa:`https://www.youtube.com/embed/SSmzBckNCnE?si=0U9AJkrexrObcGkM`,
     modalTengo36AñosVivoEnLaCasaAmarilla:`https://www.youtube.com/embed/6hFDNidjX-o?si=sXCJ2ClvB1N4t1ca`,
-
+    modalMellamoMariavivoenlacasaverde:'https://www.youtube.com/embed/Fv6-nbVbmQo?si=XFa_0Y4DXvF4vgzF',
+    modalMinombreesJaviervivoenlacasaverde:'https://www.youtube.com/embed/GGa_gwwsROQ?si=HRjYW3ZdJ9sbBNnF',
   };
   // Al hacer clic en el botón, mostrar el modal
   buttons.forEach((button) => {
