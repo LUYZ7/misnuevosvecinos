@@ -632,6 +632,41 @@ canvas {
   .dragButton6 {
     font-size: larger;
   }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .card {
+    border: solid #2cb7b3 3px;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-header p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .card-body img {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
   .menuOption {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
@@ -778,6 +813,11 @@ canvas {
     align-items: center;
     width: 99%;
   }
+
+  .card {
+        width: 45%;
+    }
+
   .imagenPrueba {
     width: 400px;
     height: auto;
@@ -797,6 +837,16 @@ canvas {
   .dragButton6 {
     font-size: x-large;
   }
+
+  .card {
+        width: 45%;
+        border: solid #2cb7b3 3px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+
   .imagenPrueba {
     width: 400px;
     height: auto;
@@ -1596,6 +1646,14 @@ canvas {
     justify-content: center;
     align-items: center;
     width: 99%;
+  }
+
+  .card {
+    width: 90%;
+    border: solid #2cb7b3 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
   }
 
   .dragButton1,

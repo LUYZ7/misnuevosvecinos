@@ -273,5 +273,3 @@ document.addEventListener("DOMContentLoaded", () => {
   selectRandomPairs(); // Ejecutar al cargar la página
 });
 
-
-
