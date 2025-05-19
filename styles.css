@@ -588,6 +588,13 @@ canvas {
     display: inline-block;
     margin: 20px;
   }
+
+  .recordemos1 {
+    position: relative;
+    margin-top: -1px;
+    margin-left: -110px;
+    font-size: 18px;
+  }
   
 
 
@@ -813,7 +820,13 @@ canvas {
     align-items: center;
     width: 99%;
   }
-
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Más separación que en desktop o móvil */
+    padding: 20px;
+  }
   .card {
         width: 45%;
     }
@@ -1039,14 +1052,23 @@ canvas {
     margin: 15px;  /* Reducción del 25% respecto a PC */
 }
 
+.recordemos1 {
+  position: relative;
+  top: -15px;
+  left: 55px;
+  font-size: 2px;
+  width: fit-content;
+  height: fit-content;
+}
+
   .div2nuevas {
     position: absolute;
     bottom: 100px;
   }
   .edad1 {
     position: absolute;
-    left: 70px;
-    top: 150px;
+    left: 350px;
+    top: 120px;
     z-index: 1;
     width: fit-content;
     height: fit-content;
@@ -1061,7 +1083,7 @@ canvas {
   }
   .edad3 {
     position: relative;
-    left: 150px;
+    left: 130px;
     top: 80px;
     font-size: 25px;
     width: fit-content;
@@ -1648,6 +1670,14 @@ canvas {
     width: 99%;
   }
 
+  .card-container {
+    display: flex;
+    flex-direction: column;  /* Acomoda en columna */
+    align-items: center;     /* Centra horizontalmente */
+    gap: 20px;               /* Espacio entre cards */
+    padding: 10px;
+  }
+
   .card {
     width: 90%;
     border: solid #2cb7b3 3px;
@@ -1857,6 +1887,15 @@ canvas {
     margin: 10px;  /* Reducción del 50% respecto a PC */
 }
 
+.recordemos1 {
+  position: relative;
+  top: -35px;
+  left: 50px;
+  font-size: 12px;
+  width: fit-content;
+  height: fit-content;
+}
+
   .div2nuevas {
     position: absolute;
     bottom: 100px;
@@ -2011,7 +2050,7 @@ canvas {
 
   .comictxt {
     position: relative;
-    margin-top: -50px; /* Reducción proporcional respecto a PC */
+    margin-top: -65px; /* Reducción proporcional respecto a PC */
     margin-right: 40px;  /* Reducción proporcional respecto a PC */
     font-size: 10px;    
 }

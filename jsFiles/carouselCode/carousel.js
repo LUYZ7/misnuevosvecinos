@@ -92,10 +92,13 @@ document.addEventListener("DOMContentLoaded", () => {
     button.addEventListener("click", () => {
       currentIndex = index;
       showSection(currentIndex);
-      console.log("me picaste");
+      window.scrollTo({
+        top: 0,
+        behavior: "auto" // También puedes probar "smooth"
+      });
     });
   });
-
+  
   menuBtn.addEventListener("click", menuSection);
   nextBtn.addEventListener("click", nextSection);
   prevBtn.addEventListener("click", prevSection);
