@@ -248,169 +248,296 @@ canvas {
   /* Todo esto es de javier */
   .javierInputFinal1 {
     position: relative;
-    width: 30px;
+    width: 40px;
     height: 30px;
-    font-size: 23px;
-    top: 150px;
-    left: -40px;
+    font-size: 25px;
+    top: 114px;
+    left: 77px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+    text-align: center;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;
+    letter-spacing: 7px;  
   }
   .javierInputFinal2 {
     position: relative;
-    width: 90px;
+    width: 130px;
     height: 30px;
-    font-size: 23px;
-    left: -30px;
-    top: 150px;
+    font-size: 25px;
+    left: 90px;
+    top: 114px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 8px; 
   }
   .javierInputFinal3 {
     position: relative;
-    width: 30px;
+    width: 40px;
     height: 30px;
-    font-size: 23px;
-    top: 150px;
-    left: -20px;
+    font-size: 25px;
+    top: 114px;
+    left: 103px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 9px; 
   }
   .javierInputFinal4 {
     position: relative;
-    width: 70px;
+    width: 130px;
     height: 30px;
-    font-size: 23px;
+    font-size: 25px;
     border: 0px;
-    left: -130px;
-    top: 200px;
-    border-bottom: 2px solid black;
+    left: -135px;
+    top: 152px;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 10px; 
   }
   .javierInputFinal5 {
     position: relative;
-    width: 70px;
+    width: 107px;
     height: 30px;
-    font-size: 23px;
-    top: 250px;
-    left: -180px;
+    font-size: 25px;
+    top: 199px;
+    left: -200px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 9px; 
   }
-  .javierInputFinal6 {
+
+  .dianaInputFinal1 {
     position: relative;
-    font-size: 23px;
-    width: 30px;
-    top: 198px;
-    left: 280px;
+    width: 40px;
+    height: 30px;
+    font-size: 25px;
+    top: 116px;
+    left: 48px;
+    border: 0px;
+    border-bottom: 2px solid white;
+    text-align: center;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;
+    letter-spacing: 7px;  
   }
-  .javierInputFinal7 {
+  .dianaInputFinal2 {
     position: relative;
-    font-size: 23px;
-    top: 185px;
-    left: -20px;
+    width: 133px;
+    height: 30px;
+    font-size: 25px;
+    left: 67px;
+    top: 116px;
+    border: 0px;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 8px; 
   }
+  .dianaInputFinal3 {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    font-size: 25px;
+    top: 116px;
+    left: 85px;
+    border: 0px;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 9px; 
+  }
+  .dianaInputFinal4 {
+    position: relative;
+    width: 116px;
+    height: 30px;
+    font-size: 25px;
+    border: 0px;
+    left: -171px;
+    top: 157.5px;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 10px; 
+  }
+  .dianaInputFinal5 {
+    position: relative;
+    width: 107px;
+    height: 30px;
+    font-size: 25px;
+    top: 208px;
+    left: -212px;
+    border: 0px;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 9px; 
+  }
+  
   .contenedorFinal {
     display: flex;
     flex-direction: column;
   }
-  .globoJavier {
-    background-image: url("./imgs/ejercicio/mano\ con\ tarjeta\ vacia.png");
-    position: static;
-    white-space: nowrap;
-    background-repeat: no-repeat;
-    background-size: contain;
-    bottom: 300px;
-    width: 600px;
-    height: 440px;
-  }
   /* Todo esto es de javier */
   .elenainputfinal1 {
     position: relative;
-    width: 40px;
+    width: 70px;
     height: 30px;
-    font-size: 23px;
-    top: 150px;
-    left: -100px;
+    font-size: 25px;
+    top: 121.8px;
+    left: 5px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 12px; 
   }
   .elenainputfinal2 {
     position: relative;
-    width: 70px;
+    width: 117px;
     height: 30px;
-    font-size: 23px;
-    left: -90px;
-    top: 150px;
+    font-size: 25px;
+    left: 17px;
+    top: 121.8px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 13px; 
+  }
+  .elenainputfinal3 {
+    position: relative;
+    width: 94px;
+    height: 30px;
+    font-size: 25px;
+    left: -84px;
+    top: 175px;
+    border: 0px;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 10px; 
   }
   /* Todo esto es de maria */
   .mariaInputFinal1 {
     position: relative;
-    width: 40px;
+    width: 52px;
     height: 30px;
-    font-size: 23px;
-    top: 150px;
-    left: -100px;
+    font-size: 25px;
+    top: 122px;
+    left: 58px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 10px; 
   }
   .mariaInputFinal2 {
     position: relative;
-    width: 70px;
+    width: 115px;
     height: 30px;
-    font-size: 23px;
-    left: -90px;
-    top: 150px;
+    font-size: 25px;
+    left: 78px;
+    top: 122px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 11px; 
   }
   .mariaInputFinal3 {
     position: relative;
-    width: 70px;
+    width: 115px;
     height: 30px;
-    font-size: 23px;
-    top: 150px;
-    left: -80px;
+    font-size: 25px;
+    top: 163.8px;
+    left: -90px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 11px; 
   }
   .mariaInputFinal4 {
     position: relative;
-    width: 30px;
+    width: 94px;
     height: 30px;
-    font-size: 23px;
-    left: 120px;
-    top: 150px;
-  }
-  .mariaInputFinal5 {
-    position: relative;
-    width: 70px;
-    height: 30px;
-    font-size: 23px;
-    top: 95px;
-    left: -30px;
+    font-size: 25px;
+    left: -110px;
+    top: 216.3px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;   
+    letter-spacing: 10px; 
   }
-  .mariaInputFinal6 {
-    position: relative;
-    font-size: 20px;
-    width: 30px;
-    top: 100px;
-    left: 190px;
-  }
+ 
 
   .globoMaria {
-    background-image: url("./imgs/ejercicio/mano\ con\ tarjeta\ vacia.png");
+    background-image: url("./imgs/ejercicio/Imagen40.png");
     position: static;
     white-space: nowrap;
     background-repeat: no-repeat;
     background-size: contain;
     bottom: -300px;
     width: 600px;
-    height: 440px;
+    height: 670px;
   }
+
+  .globoElena {
+    background-image: url("./imgs/ejercicio/Imagen42.png");
+    position: static;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -300px;
+    width: 600px;
+    height: 670px;
+  }
+
+  .globoJavier {
+    background-image: url("./imgs/ejercicio/Imagen39.png");
+    position: static;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 300px;
+    width: 600px;
+    height: 670px;
+  }
+
+  .globoDiana {
+    background-image: url("./imgs/ejercicio/Imagen41.png");
+    position: static;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 300px;
+    width: 600px;
+    height: 670px;
+  }
+
   /* Todo lo de aqui es de maria */
   .personaje {
     width: 200px;
@@ -1475,75 +1602,256 @@ canvas {
   /* Todo esto es de javier */
   .javierInputFinal1 {
     position: relative;
-    width: 40px;
-    height: 30px;
-    font-size: 18px;
-    top: 80px;
-    left: 70px;
+    width: 23px;
+    height: 17px;
+    font-size: 15px;
+    top: 44.5px;
+    left: 25px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 2px; 
   }
   .javierInputFinal2 {
     position: relative;
-    width: 90px;
-    height: 30px;
-    font-size: 18px;
-    left: 80px;
-    top: 80px;
+    width: 60px;
+    height: 17px;
+    font-size: 15px;
+    left: 24px;
+    top: 44.5px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 1px; 
   }
   .javierInputFinal3 {
     position: relative;
-    width: 40px;
-    height: 30px;
-    font-size: 18px;
-    top: 110px;
-    left: -20px;
+    width: 17px;
+    height: 17px;
+    font-size: 15px;
+    top: 44.5px;
+    left: 27px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 0px; 
   }
   .javierInputFinal4 {
     position: relative;
-    width: 70px;
-    height: 30px;
-    font-size: 18px;
+    width: 60px;
+    height: 15px;
+    font-size: 13px;
     border: 0px;
-    left: -10px;
-    top: 110px;
-    border-bottom: 2px solid black;
+    left: -82.4px;
+    top: 61.8px;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 4.3px; 
   }
   .javierInputFinal5 {
     position: relative;
-    width: 60px;
-    height: 30px;
-    font-size: 18px;
-    top: 140px;
-    left: -140px;
+    width: 48px;
+    height: 15px;
+    font-size: 13px;
+    top: 83px;
+    left: -116px;
     border: 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 2.8px;
   }
-  .javierInputFinal6 {
-    position: relative;
-    font-size: 18px;
-    width: 30px;
-    top: 97px;
-    left: 180px;
-  }
-  .javierInputFinal7 {
-    position: relative;
-    font-size: 15px;
-    top: 85px;
-    width: 130px;
-    background-color: white;
-    left: 80px;
-  }
+
   .contenedorFinal {
     display: flex;
     flex-direction: column;
   }
+  /* Todo esto es de javier */
+
+
+  .dianaInputFinal1 {
+    position: relative;
+    width: 23px;
+    height: 17px;
+    font-size: 15px;
+    top: 46px;
+    left: 11px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 2px; 
+  }
+  .dianaInputFinal2 {
+    position: relative;
+    width: 60px;
+    height: 17px;
+    font-size: 15px;
+    left: 14px;
+    top: 46px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 1px; 
+  }
+  .dianaInputFinal3 {
+    position: relative;
+    width: 17px;
+    height: 17px;
+    font-size: 15px;
+    top: 46px;
+    left: 20px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 0px; 
+  }
+  .dianaInputFinal4 {
+    position: relative;
+    width: 55px;
+    height: 14.7px;
+    font-size: 13px;
+    border: 0px;
+    left: -99px;
+    top: 64px;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 4.3px; 
+  }
+  .dianaInputFinal5 {
+    position: relative;
+    width: 48px;
+    height: 15px;
+    font-size: 13px;
+    top: 87px;
+    left: -122px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 2.8px;
+  }
+
+  .elenainputfinal1 {
+    position: relative;
+    width: 33px;
+    height: 17px;
+    font-size: 15px;
+    top: 48px;
+    left: -10px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 2.8px;
+  }
+  .elenainputfinal2 {
+    position: relative;
+    width: 53px;
+    height: 17px;
+    font-size: 15px;
+    left: -6px;
+    top: 48px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 2.8px;
+  }
+  .elenainputfinal3 {
+    position: relative;
+    width: 45px;
+    height: 17px;
+    font-size: 15px;
+    left: -57px;
+    top: 71.5px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 2.8px;
+  }
+  /* Todo esto es de maria */
+  .mariaInputFinal1 {
+    position: relative;
+    width: 25px;
+    height: 17px;
+    font-size: 15px;
+    top: 48px;
+    left: 15px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 2px;
+  }
+  .mariaInputFinal2 {
+    position: relative;
+    width: 50px;
+    height: 17px;
+    font-size: 15px;
+    left: 22px;
+    top: 48px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 2.7px;
+  }
+  .mariaInputFinal3 {
+    position: relative;
+    width: 55px;
+    height: 15px;
+    font-size: 13px;
+    top: 66.8px;
+    left: -56.5px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 4.5px;
+  }
+  .mariaInputFinal4 {
+    position: relative;
+    width: 45px;
+    height: 17px;
+    font-size: 15px;
+    top: 89.6px;
+    left: -70px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    text-align: justify;          /* Centra horizontalmente */
+    line-height: 30px;           /* Centra verticalmente */
+    padding: 0;    
+    letter-spacing: 2.7px;
+  }
+  
+
   .globoJavier {
-    background-image: url("./imgs/ejercicio/mano\ con\ tarjeta\ vacia.png");
+    background-image: url("./imgs/ejercicio/Imagen39.png");
     position: static;
     white-space: nowrap;
     background-repeat: no-repeat;
@@ -1551,88 +1859,32 @@ canvas {
     bottom: 300px;
     width: 300px;
     height: 300px;
+    margin-bottom: -45px;
   }
-  /* Todo esto es de javier */
-  .elenainputfinal1 {
-    position: relative;
-    width: 40px;
-    height: 30px;
-    font-size: 18px;
-    top: 73px;
-    left: -20px;
-    border: 0px;
-    border-bottom: 2px solid black;
+  .globoDiana {
+    background-image: url("./imgs/ejercicio/Imagen41.png");
+    position: static;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 300px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: -45px;
   }
-  .elenainputfinal2 {
-    position: relative;
-    width: 70px;
-    height: 30px;
-    font-size: 18px;
-    left: -10px;
-    top: 73px;
-    border: 0px;
-    border-bottom: 2px solid black;
+  .globoElena {
+    background-image: url("./imgs/ejercicio/Imagen42.png");
+    position: static;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -300px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: -45px;
   }
-  /* Todo esto es de maria */
-  .mariaInputFinal1 {
-    position: relative;
-    width: 50px;
-    height: 30px;
-    font-size: 18px;
-    top: 73px;
-    left: 10px;
-    border: 0px;
-    border-bottom: 2px solid black;
-  }
-  .mariaInputFinal2 {
-    position: relative;
-    width: 70px;
-    height: 30px;
-    font-size: 18px;
-    left: 10px;
-    top: 73px;
-    border: 0px;
-    border-bottom: 2px solid black;
-  }
-  .mariaInputFinal3 {
-    position: relative;
-    width: 70px;
-    height: 30px;
-    font-size: 18px;
-    top: 105px;
-    left: -100px;
-    border: 0px;
-    border-bottom: 2px solid black;
-  }
-  .mariaInputFinal4 {
-    position: relative;
-    width: 40px;
-    height: 30px;
-    font-size: 18px;
-    left: 105px;
-    top: 90px;
-  }
-  .mariaInputFinal5 {
-    position: relative;
-    width: 70px;
-    height: 30px;
-    font-size: 18px;
-    top: 38px;
-    left: 70px;
-    border: 0px;
-    border-bottom: 2px solid black;
-  }
-  .mariaInputFinal6 {
-    position: relative;
-    font-size: 20px;
-    width: 140px;
-    top: 20px;
-    left: 90px;
-    background-color: white;
-  }
-
   .globoMaria {
-    background-image: url("./imgs/ejercicio/mano\ con\ tarjeta\ vacia.png");
+    background-image: url("./imgs/ejercicio/Imagen40.png");
     position: static;
     white-space: nowrap;
     background-repeat: no-repeat;
@@ -2304,77 +2556,18 @@ canvas {
   }
 
   /* Todo esto es de javier */
-  .javierInputFinal1 {
-    position: relative;
-    width: 40px;
-    height: 30px;
-    font-size: 18px;
-    top: 80px;
-    left: 70px;
-    border: 0px;
-    border-bottom: 2px solid black;
-  }
-  .javierInputFinal2 {
-    position: relative;
-    width: 90px;
-    height: 30px;
-    font-size: 18px;
-    left: 80px;
-    top: 80px;
-    border: 0px;
-    border-bottom: 2px solid black;
-  }
-  .javierInputFinal3 {
-    position: relative;
-    width: 40px;
-    height: 30px;
-    font-size: 18px;
-    top: 110px;
-    left: -20px;
-    border: 0px;
-    border-bottom: 2px solid black;
-  }
-  .javierInputFinal4 {
-    position: relative;
-    width: 70px;
-    height: 30px;
-    font-size: 18px;
-    border: 0px;
-    left: -10px;
-    top: 110px;
-    border-bottom: 2px solid black;
-  }
-  .javierInputFinal5 {
-    position: relative;
-    width: 60px;
-    height: 30px;
-    font-size: 18px;
-    top: 140px;
-    left: -140px;
-    border: 0px;
-    border-bottom: 2px solid black;
-  }
-  .javierInputFinal6 {
-    position: relative;
-    font-size: 18px;
-    width: 30px;
-    top: 97px;
-    left: 180px;
-  }
-  .javierInputFinal7 {
-    position: relative;
-    font-size: 15px;
-    top: 85px;
-    width: 130px;
-    background-color: white;
-    left: 80px;
-  }
+  
   .contenedorFinal {
     display: flex;
     flex-direction: column;
   }
+ 
+  /* Todo esto es de javier */
+
+  /* Todo esto es de maria */
+  
   .globoJavier {
-    background-image: url("./imgs/ejercicio/mano\ con\ tarjeta\ vacia.png");
+    background-image: url("./imgs/ejercicio/Imagen39.png");
     position: static;
     white-space: nowrap;
     background-repeat: no-repeat;
@@ -2382,88 +2575,32 @@ canvas {
     bottom: 300px;
     width: 300px;
     height: 300px;
+    margin-bottom: -45px;
   }
-  /* Todo esto es de javier */
-  .elenainputfinal1 {
-    position: relative;
-    width: 40px;
-    height: 30px;
-    font-size: 18px;
-    top: 73px;
-    left: -20px;
-    border: 0px;
-    border-bottom: 2px solid black;
+  .globoDiana {
+    background-image: url("./imgs/ejercicio/Imagen41.png");
+    position: static;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 300px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: -45px;
   }
-  .elenainputfinal2 {
-    position: relative;
-    width: 70px;
-    height: 30px;
-    font-size: 18px;
-    left: -10px;
-    top: 73px;
-    border: 0px;
-    border-bottom: 2px solid black;
+  .globoElena {
+    background-image: url("./imgs/ejercicio/Imagen42.png");
+    position: static;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -300px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: -45px;
   }
-  /* Todo esto es de maria */
-  .mariaInputFinal1 {
-    position: relative;
-    width: 50px;
-    height: 30px;
-    font-size: 18px;
-    top: 73px;
-    left: 10px;
-    border: 0px;
-    border-bottom: 2px solid black;
-  }
-  .mariaInputFinal2 {
-    position: relative;
-    width: 70px;
-    height: 30px;
-    font-size: 18px;
-    left: 10px;
-    top: 73px;
-    border: 0px;
-    border-bottom: 2px solid black;
-  }
-  .mariaInputFinal3 {
-    position: relative;
-    width: 70px;
-    height: 30px;
-    font-size: 18px;
-    top: 105px;
-    left: -100px;
-    border: 0px;
-    border-bottom: 2px solid black;
-  }
-  .mariaInputFinal4 {
-    position: relative;
-    width: 40px;
-    height: 30px;
-    font-size: 18px;
-    left: 105px;
-    top: 90px;
-  }
-  .mariaInputFinal5 {
-    position: relative;
-    width: 70px;
-    height: 30px;
-    font-size: 18px;
-    top: 38px;
-    left: 70px;
-    border: 0px;
-    border-bottom: 2px solid black;
-  }
-  .mariaInputFinal6 {
-    position: relative;
-    font-size: 20px;
-    width: 140px;
-    top: 20px;
-    left: 90px;
-    background-color: white;
-  }
-
   .globoMaria {
-    background-image: url("./imgs/ejercicio/mano\ con\ tarjeta\ vacia.png");
+    background-image: url("./imgs/ejercicio/Imagen40.png");
     position: static;
     white-space: nowrap;
     background-repeat: no-repeat;
